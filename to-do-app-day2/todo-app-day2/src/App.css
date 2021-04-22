@@ -1,0 +1,32 @@
+.App{
+  height: 100vh;/*full width of size of screen whatever device*/
+  display:flex;
+  justify-content: center;
+  background-color: black;
+  color: white;
+  align-items: center;
+}
+
+.container{
+  display: flex;
+  height:80vh;
+  border:1px solid grey;
+  flex-direction: column;
+  align-items: center;
+  font-size: 20px;
+  color:white;
+}
+
+.todoform{
+  display:flex;
+  justify-content: space-around;
+  width:450px;
+}
+
+button{
+  border:none;
+  padding:10px;
+  border-radius: 20px;
+  margin:0 5px;
+}
+
