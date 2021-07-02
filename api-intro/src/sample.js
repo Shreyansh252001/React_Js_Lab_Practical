@@ -1,4 +1,3 @@
-
 import axios from "axios";
 import { useEffect, useState } from "react";
 import "./App.css";
@@ -15,31 +14,23 @@ function App() {
       const country = await axios.get(
         "https://countriesnow.space/api/v0.1/countries"
       );
-
       setCountries(country.data.data);
-
     } catch (error) {
       console.log(error);
     }
   };
 
   const fetchCities = (country) => {
-
     setSubmit(false);
-
     setSingleCity(null);
 
     setSingleCountry(country);
-
     const findCities = countries.find((c) => c.country === country);
-
     setCities(findCities.cities);
-
   };
 
   const submitHandle = () => {
-    if (singleCountry && singleCity) 
-    {
+    if (singleCountry && singleCity) {
       setSubmit(true);
     }
   };
@@ -50,57 +41,41 @@ function App() {
 
   return (
     <div className="App">
-
       <div className="App-header">
-
         <h1>Select Your Hometown</h1>
-
         <div>
-
           {countries && (
-
-            /* <!--b class="glow-on-hover"---> */
-
-            <select class="button"
+            <select
               onChange={(e) => fetchCities(e.target.value)}
               value={singleCountry}
             >
               <option selected hidden disabled>
                 Select Country
               </option>
-              
               {countries.map((country) => (
                 <option key={`${country.country}`} value={country.country}>
                   {country.country}
                 </option>
               ))}
-
             </select>
-          /*   <!/b---> */
           )}
 
           {cities && (
-
-           /*  <b class="glow-on-hover"> */
-            <select class="button" onChange={(e) => setSingleCity(e.target.value)}
+            <select
+              onChange={(e) => setSingleCity(e.target.value)}
               value={singleCity}
             >
               <option disabled selected hidden>
                 Select City
               </option>
-              {
-              cities.map((city) => (
+              {cities.map((city) => (
                 <option value={city} key={city}>
                   {city}
                 </option>
               ))}
-
             </select>
-
-           /*  </b> */
           )}
-
-          <button class="button" onClick={submitHandle}>Go</button>
+          <button onClick={submitHandle}>Go</button>
         </div>
         {submit && (
           <h3>
