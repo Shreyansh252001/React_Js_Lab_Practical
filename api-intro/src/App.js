@@ -1,4 +1,3 @@
-
 import axios from "axios";
 import { useEffect, useState } from "react";
 import "./App.css";
@@ -11,7 +10,7 @@ function App() {
   const [submit, setSubmit] = useState(false);
 
   const fetchCountries = async () => {
-    try {
+    try { 
       const country = await axios.get(
         "https://countriesnow.space/api/v0.1/countries"
       );
@@ -34,7 +33,6 @@ function App() {
     const findCities = countries.find((c) => c.country === country);
 
     setCities(findCities.cities);
-
   };
 
   const submitHandle = () => {
