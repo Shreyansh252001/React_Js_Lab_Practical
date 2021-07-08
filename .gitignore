@@ -1,0 +1,79 @@
+.vscode
+
+api-intro\node_modules
+
+to-do-app\node_modules
+
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+api-intro/node_modules
+api-intro/.pnp
+api-intro/.pnp.js
+
+# testing
+api-intro/coverage
+
+# production
+api-intro/build
+
+# misc
+api-intro/.DS_Store
+api-intro/.env.local
+api-intro/.env.development.local
+api-intro/.env.test.local
+api-intro/.env.production.local
+
+api-intro/npm-debug.log*
+api-intro/yarn-debug.log*
+api-intro/yarn-error.log*
+
+
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+to-do-app/node_modules
+to-do-app/.pnp
+to-do-app/.pnp.js
+
+# testing
+to-do-app/coverage
+
+# production
+to-do-app/build
+
+# misc
+todo-app-day2/.DS_Store
+todo-app-day2/.env.local
+todo-app-day2/.env.development.local
+todo-app-day2/.env.test.local
+todo-app-day2/.env.production.local
+
+todo-app-day2/npm-debug.log*
+todo-app-day2/yarn-debug.log*
+todo-app-day2/yarn-error.log*
+
+
+
+
+todo-app-day2/node_modules
+todo-app-day2/.pnp
+todo-app-day2/.pnp.js
+
+# testing
+todo-app-day2/coverage
+
+# production
+todo-app-day2/build
+
+# misc
+todo-app-day2/.DS_Store
+todo-app-day2/.env.local
+todo-app-day2/.env.development.local
+todo-app-day2/.env.test.local
+todo-app-day2/.env.production.local
+
+todo-app-day2/npm-debug.log*
+todo-app-day2/yarn-debug.log*
+todo-app-day2/yarn-error.log*
+
