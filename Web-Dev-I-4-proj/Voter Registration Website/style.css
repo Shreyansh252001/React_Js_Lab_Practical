@@ -1,0 +1,351 @@
+* {
+    margin: 0;
+    padding: 0;
+    border-radius: 3px;
+    outline: none;
+}
+
+      .navbar {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: .5rem 1rem;
+    background-color:#181b1b;
+    padding-left: 15px;
+    padding-right: 10px;
+    padding-top: 3px;
+    color: rgb(248, 248, 248);
+}
+
+
+      .btn-primary{
+        color: rgb(161, 24, 24);
+    background-color: #007bff;
+    border-color: #007bff
+      }
+
+      .btn 
+      {
+    display: inline-block;
+    font-weight: 400;
+    color: #212529;
+    text-align: center;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    transition: color .15s 
+                ease-in-out,background-color .15s 
+                ease-in-out,border-color .15s 
+                ease-in-out,box-shadow .15s 
+                ease-in-out;
+    }
+
+    *, ::after, ::before {
+    box-sizing: border-box;
+}
+
+  *,::after,::before{
+    box-sizing:border-box;
+  }
+
+
+  html {
+    /* font-family: sans-serif; */
+    /* line-height: 1.15; */
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  body {
+    margin: 0;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+
+    color: #212529;
+    text-align: left;
+    background-color: #fff;
+}
+
+element.style {
+    align-content: center;
+}
+
+:root {
+    --blue: #007bff;
+    --indigo: #6610f2;
+    --purple: #6f42c1;
+    --pink: #e83e8c;
+    --red: #dc3545;
+    --orange: #fd7e14;
+    --yellow: #ffc107;
+    --green: #28a745;
+    --teal: #20c997;
+    --cyan: #17a2b8;
+    --white: #fff;
+    --gray: #6c757d;
+    --gray-dark: #343a40;
+    --primary: #007bff;
+    --secondary: #6c757d;
+    --success: #28a745;
+    --info: #17a2b8;
+    --warning: #ffc107;
+    --danger: #dc3545;
+    --light: #f8f9fa;
+    --dark: #343a40;
+    --breakpoint-xs: 0;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+    --font-family-sans-serif: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    --font-family-monospace: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+}
+
+.fontsetting {
+    padding-top: 10px;
+    text-align: center;
+    border: solid 0.5px rgb(221, 221, 221);
+    margin: 5px;
+    padding-bottom: 22px;
+}
+
+
+.fontsetting button {
+    width: 80px;
+    padding: 2px;
+    float: left;
+    margin-left: 50px;
+    background-color: gray;
+    height: 28px;
+}
+
+.lang{
+  margin-left: 700px;
+}
+
+.fontsetting select {
+    float: right;
+    margin-right: 50px;
+    width: 150px;
+    padding-left: 50px;
+    height: 28px;
+}
+
+.btn-group-sm>.btn, .btn-sm {
+    padding: 0.25rem 0.5rem;
+    font-size: .875rem;
+    line-height: 1.5;
+    border-radius: .2rem;
+}
+
+.dropdown-toggle {
+    white-space: nowrap;
+}
+
+h3 {
+    color: brown;
+    margin-left: 98px;
+    font-weight: 1;
+    padding-top: 10px;
+}
+
+.h3, h3 {
+    font-size: 1.75rem;
+}
+
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    margin-bottom: .5rem;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin-top: 0;
+    /*margin-bottom: .5rem;*/
+}
+
+.h3 {
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+.formheading{
+  font-weight: bold;
+    padding: 18px;
+    background-color: rgb(199, 197, 197);
+}
+
+.descrip{
+  padding: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    
+}
+.descrip{
+  background-color: rgb(224, 171, 157);
+}
+
+form{
+  display:block;
+}
+
+.formheading{
+  font-weight:bold;
+  padding:18px;
+  background-color:#b9b8b9;
+}
+
+.container {
+    background-color: rgb(238, 238, 238);
+    margin: 5px;
+    padding: 5px;
+    margin-left: 80px;
+    margin-right: 80px;
+    border: solid 0.5px gray;
+        width: 100%;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto;
+    
+}
+
+
+button, input, optgroup, select, textarea {
+    margin: 0;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+
+dl, ol, ul {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+ul {
+    list-style-type: none;
+}
+
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border-radius: 3px;
+    outline: none;
+}
+
+
+ul {
+    display: block;
+    list-style-type: none;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+
+button, input, optgroup, select, textarea {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+
+button:not(:disabled) {
+    cursor: pointer;
+}
+
+button, input, optgroup, select, textarea {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+
+input, textarea {
+    max-width: 400px;
+    border-radius: 5px;
+    padding-left: 3px;
+    border: rgb(0, 0, 0, 0.2) solid 1px;
+}
+
+input[type=checkbox], input[type=radio] {
+    box-sizing: border-box;
+    padding: 0;
+}
+
+button, input {
+    overflow: visible;
+}
+
+input[type="radio" i] {
+    background-color: initial;
+    cursor: default;
+    appearance: auto;
+    box-sizing: border-box;
+    margin: 3px 3px 0px 5px;
+    padding: initial;
+    border: initial;
+}
+
+
+.fa, .far, .fas {
+    font-family: "Font Awesome 5 Free";
+}
+
+.far {
+    font-weight: 400;
+}
+
+.fa, .fab, .fal, .far, .fas {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1;
+}
+
+.form1 button {
+    width: 80px;
+    padding: 2px;
+    margin-left: 50px;
+    background-color: gray;
+    height: 38px;
+    font-size: 20px;
+}
