@@ -1,5 +1,31 @@
  #  THERE ARE 4 PROJECTS IN THIS REPO WHICH WERE MADE WHILE LEARNING REACT AND DOING INTERNSHIP OF HTML CSS AND JS
 
+<style>
+
+
+  .emoji {
+    font-size: calc(14px);
+}
+.emoji::after {
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+.bomb::after {
+    content: '💣';
+    --emoji: '💥';
+    animation-name: twoFrames;
+    animation-duration: 2s;
+}
+@keyframes twoFrames {
+    50% {
+        content: var(--emoji);
+    }
+}
+
+
+</style>
+
+
 ## **1). Web-Dev-I-4-Proj**
  
   It contains 4 projects which are designed for an internship using HTML CSS and JS.
@@ -9,7 +35,7 @@
 >A). **<u>Blogging Site</u>**
       contains a sample vlog made for the customer
 
->B). **<u>CSS3 Animation Site</u>**
+>B).**<u><a class="emoji bomb">CSS3 Animation Site&nbsp;</a></u>**
       contains a site which depicts various pictures for animation
 
 >C).**<u>Movies Site</u>**(:cinema:)
