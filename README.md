@@ -5,16 +5,16 @@
   It contains 4 projects which are designed for an internship using HTML CSS and JS.
 
   These are as follows:-
->
+
 >A). **<u>Blogging Site</u>**
       contains a sample vlog made for the customer
->   
+
 >B). **<u>CSS3 Animation Site</u>**
       contains a site which depicts various pictures for animation
->    
+
 >C).**<u>Movies Site</u>**(:cinema:)
       contains list of movies to choose from (only front end)
->    
+ 
 >D).**<u>Voter Registration</u>**
       Voter Registration Page of Js , CSS and HTML.
 </list>
