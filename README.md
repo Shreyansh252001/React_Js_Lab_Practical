@@ -2,7 +2,6 @@
 
 <style>
 
-
   .emoji {
     font-size: calc(14px);
 }
@@ -25,7 +24,6 @@
 
 </style>
 
-
 ## **1). Web-Dev-I-4-Proj**
  
   It contains 4 projects which are designed for an internship using HTML CSS and JS.
@@ -45,20 +43,20 @@
       Voter Registration Page of Js , CSS and HTML.
 </list>
 
-## ** 2). api-intro **
+## **2). api-intro**
     In this project there is api, useEffect hooks, asyn/await , api, tutorial with the help of npm .All this is demonstrated with the help of countries data parser in the React Js  language.
 
 </br>
 <img src="assets/api-intro.gif" type="gif" alt="api-intro-gif"/>
 </br>
 
-##  ** 3). to-do-app **
+##  **3). to-do-app**
     This app is an app conatining  basic skeleton of a to-do and not much frmated lacking some  features.
 </br>
 <img src="assets/to-do-app.gif" type="gif" alt="to-do-app-gif"/>
 </br>
 
-## ** 4). todo-app-day2 **
+## **4). todo-app-day2**
     This app contains developed version of above app but this contains more features comparedto above app which lacks some features or organised feature/ styling.This version of app works on components made as separate file inside components folder.
 </br>
 <img src="assets/todo-app-day2.gif" type="gif" alt="todo-app-day2-gif" width="600px">
