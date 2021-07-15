@@ -32,10 +32,10 @@
 
   These are as follows:-
 
->A). [**<u><a href="https://blog-shreyansh252001.000webhostapp.com/">Blogging Site</a></u>**]
+>A). **<u><a href="https://blog-shreyansh252001.000webhostapp.com/">Blogging Site</a></u>**
       contains a sample vlog made for the customer
 
->B).**<u><a href="https://css3animationsshreyansh252001.000webhostapp.com/" class="emoji bomb">CSS3 Animation Site&nbsp;</a></u>**
+>B).**<u><a href="https://css3animationsshreyansh252001.000webhostapp.com/" class="emoji bomb"> CSS3 Animation Site&nbsp; </a></u>**
       contains a site which depicts various pictures for animation
 
 >C).**<u><a href="https://shreyansh252001movies.000webhostapp.com/">Movies Site</a></u>**(:cinema:)
@@ -45,20 +45,20 @@
       Voter Registration Page of Js , CSS and HTML.
 </list>
 
-## _** 2). api-intro _
+## ** 2). api-intro **
     In this project there is api, useEffect hooks, asyn/await , api, tutorial with the help of npm .All this is demonstrated with the help of countries data parser in the React Js  language.
 
 </br>
 <img src="assets/api-intro.gif" type="gif" alt="api-intro-gif"/>
 </br>
 
-##  _** 3). to-do-app _
+##  ** 3). to-do-app **
     This app is an app conatining  basic skeleton of a to-do and not much frmated lacking some  features.
 </br>
 <img src="assets/to-do-app.gif" type="gif" alt="to-do-app-gif"/>
 </br>
 
-## _** 4). todo-app-day2 _
+## ** 4). todo-app-day2 **
     This app contains developed version of above app but this contains more features comparedto above app which lacks some features or organised feature/ styling.This version of app works on components made as separate file inside components folder.
 </br>
 <img src="assets/todo-app-day2.gif" type="gif" alt="todo-app-day2-gif" width="600px">
