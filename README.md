@@ -1,5 +1,6 @@
  #  THERE ARE 4 PROJECTS IN THIS REPO WHICH WERE MADE WHILE LEARNING REACT AND DOING INTERNSHIP OF HTML CSS AND JS
-
+![ ]
+(
 <style>
 
   .emoji {
@@ -23,7 +24,7 @@
 
 
 </style>
-
+)
 ## **1). Web-Dev-I-4-Proj**
  
   It contains 4 projects which are designed for an internship using HTML CSS and JS.
