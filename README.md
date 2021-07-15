@@ -32,16 +32,16 @@
 
   These are as follows:-
 
->A). **<u>Blogging Site</u>**
+>A). [**<u><a href="https://blog-shreyansh252001.000webhostapp.com/">Blogging Site</a></u>**]
       contains a sample vlog made for the customer
 
->B).**<u><a class="emoji bomb">CSS3 Animation Site&nbsp;</a></u>**
+>B).**<u><a href="https://css3animationsshreyansh252001.000webhostapp.com/" class="emoji bomb">CSS3 Animation Site&nbsp;</a></u>**
       contains a site which depicts various pictures for animation
 
->C).**<u>Movies Site</u>**(:cinema:)
+>C).**<u><a href="https://shreyansh252001movies.000webhostapp.com/">Movies Site</a></u>**(:cinema:)
       contains list of movies to choose from (only front end)
  
->D).**<u>Voter Registration</u>**
+>D).**<u><a href="https://voterregistrationshreyansh252001.000webhostapp.com/">Voter Registration</a></u>**
       Voter Registration Page of Js , CSS and HTML.
 </list>
 
