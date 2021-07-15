@@ -6,7 +6,7 @@ const Todoform = ({handleSubmit, todo, editId, setTodo }) => {
 
           <h1>To Do List App</h1>
 
-          <input type="text" onChange={(e) => setTodo(e.target.value)} />
+          <input type="text" value={todo} onChange={(e) => setTodo(e.target.value)} />
 
           <button type="submit">{ editId ? "Edit" : "Go"} </button>
 

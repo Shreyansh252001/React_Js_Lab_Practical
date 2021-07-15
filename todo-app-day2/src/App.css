@@ -1,5 +1,5 @@
 .App{
-  height: 100vp;/*full width of size of screen whatever device*/
+ /* height: 100vp;/*full width of size of screen whatever device*/
   display:flex;
  justify-content: center;
   color: white;
@@ -9,23 +9,25 @@
 
 .container{
   display: flex;
-  width:80vh;
+  width:auto;
   padding: 20px;
   border:5px solid grey;
   flex-direction: row;
   align-items: center;
   font-size: 20px;
   color:white;
+  position:relative;
 }
 
 .todoform{
   display:flex;
-  justify-content: space-around;
-  height:auto;
-  width: auto;
+  /*height:auto;*/
+  /*width:auto;*/
+  justify-content: center;
 }
 
-button{
+button
+{
   border:none;
   padding:10px;
   border-radius: 20px;
@@ -43,6 +45,7 @@ input
   list-style: none;
   margin: 0;
   padding:0;
+  max-width: 600px;
 }
 
 .singleTodo{
@@ -50,10 +53,12 @@ input
   margin: 10px 0px;
   background-color: #5dadf8;
   padding: 10px 20px;
-  display: flex;
+  /* display: flex; */
   width: auto;
-  align-items: center;
+  /* align-items: center; */
 }
-.todoText{
-  flex:1;
+
+p.todoText{
+  max-width: 400px;
+  overflow-wrap: break-word;
 }

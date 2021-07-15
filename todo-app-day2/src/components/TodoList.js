@@ -8,8 +8,10 @@ const TodoList = ({todos,handleDelete,handleEdit}) => {
 
         <li className="singleTodo">
 
-          <span className="todoText" key={t.id}>{t.todo}</span>
+          <p className="todoText" key={t.id}>{t.todo}</p>
+
           <button onClick={()=>handleEdit(t.id)}> Edit </button>
+          
           <button onClick={()=>handleDelete(t.id)}> Delete </button>
 
         </li>
@@ -24,7 +26,7 @@ const TodoList = ({todos,handleDelete,handleEdit}) => {
         
         }
       </ul>
-    )
+    );
 }
 
-export default TodoList
+export default TodoList;
