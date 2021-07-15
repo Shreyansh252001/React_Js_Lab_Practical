@@ -1,9 +1,7 @@
 {
-<<<<<<< HEAD
+
   "name": "to-do-app",
-=======
-  "name": "tutorial",
->>>>>>> 8a525f204769f316a71edcb3e259134de50355e4
+
   "version": "0.1.0",
   "private": true,
   "dependencies": {
