@@ -1,30 +1,33 @@
  #  THERE ARE 4 PROJECTS IN THIS REPO WHICH WERE MADE WHILE LEARNING REACT AND DOING INTERNSHIP OF HTML CSS AND JS
-![ ]
-(
-<style>
 
+<foreignObject>
+<img>
+<style>
   .emoji {
     font-size: calc(14px);
 }
+
 .emoji::after {
     animation-timing-function: linear;
     animation-iteration-count: infinite;
 }
+
 .bomb::after {
     content: '💣';
     --emoji: '💥';
     animation-name: twoFrames;
     animation-duration: 2s;
 }
+
 @keyframes twoFrames {
     50% {
         content: var(--emoji);
     }
 }
-
-
+</img>
 </style>
-)
+</foreignObject>
+
 ## **1). Web-Dev-I-4-Proj**
  
   It contains 4 projects which are designed for an internship using HTML CSS and JS.
@@ -34,13 +37,13 @@
 >A). **<u><a href="https://blog-shreyansh252001.000webhostapp.com/">Blogging Site</a></u>**
       contains a sample vlog made for the customer
 
->B).**<u><a href="https://css3animationsshreyansh252001.000webhostapp.com/" class="emoji bomb"> CSS3 Animation Site&nbsp; </a></u>**
+>B).**<u>CSS3 Animation Site&nbsp;<a href="https://css3animationsshreyansh252001.000webhostapp.com/" class="emoji bomb"></a></u>**
       contains a site which depicts various pictures for animation
 
->C).**<u><a href="https://shreyansh252001movies.000webhostapp.com/">Movies Site</a></u>**(:cinema:)
+>C).**<u><a href="https://shreyansh252001movies.000webhostapp.com/"> Movies Site </a></u>**(:cinema:)
       contains list of movies to choose from (only front end)
  
->D).**<u><a href="https://voterregistrationshreyansh252001.000webhostapp.com/">Voter Registration</a></u>**
+>D).**<u><a href="https://voterregistrationshreyansh252001.000webhostapp.com/"> Voter Registration </a></u>**
       Voter Registration Page of Js , CSS and HTML.
 </list>
 
