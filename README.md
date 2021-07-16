@@ -55,15 +55,15 @@ contains a site which depicts various pictures for animation
 ## **2). api-intro**
     In this project there is api, useEffect hooks, asyn/await , api, tutorial with the help of npm .All this is demonstrated with the help of countries data parser in the React Js  language.
 
-</br>
+<br/>
 <img src="assets/api-intro.gif" type="gif" alt="api-intro-gif"/>
-</br>
+<br/>
 
 ##  **3). to-do-app**
     This app is an app conatining  basic skeleton of a to-do and not much frmated lacking some  features.
-</br>
+<br/>
 <img src="assets/to-do-app.gif" type="gif" alt="to-do-app-gif"/>
-</br>
+<br/>
 
 ## **4). todo-app-day2**
     This app contains developed version of above app but this contains more features comparedto above app which lacks some features or organised feature/ styling.This version of app works on components made as separate file inside components folder.
