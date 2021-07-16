@@ -11,7 +11,7 @@
 >A). **<u><a href="https://blog-shreyansh252001.000webhostapp.com/">Blogging Site</a></u>**
       contains a sample vlog made for the customer
 
-<foreignObject width="100%" height="100%">
+<foreignObject>
 
 <style>
 
@@ -38,12 +38,13 @@
 }
 
 </style>
+</foriegnObject>
 
  > B).  **<u><a href="https://css3animationsshreyansh252001.000webhostapp.com/" class="emoji bomb"> CSS3 Animation Site
 </a></u>** 
 contains a site which depicts various pictures for animation
 
-</foreignObject>
+
 
 
 >C).**<u><a href="https://shreyansh252001movies.000webhostapp.com/"> Movies Site </a></u>**(:cinema:)
