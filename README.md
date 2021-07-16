@@ -1,7 +1,20 @@
  #  THERE ARE 4 PROJECTS IN THIS REPO WHICH WERE MADE WHILE LEARNING REACT AND DOING INTERNSHIP OF HTML CSS AND JS
 
-<foreignObject>
-<img>
+
+
+## **1). Web-Dev-I-4-Proj**
+ 
+  It contains 4 projects which are designed for an internship using HTML CSS and JS.
+
+  These are as follows:-
+
+>A). **<u><a href="https://blog-shreyansh252001.000webhostapp.com/">Blogging Site</a></u>**
+      contains a sample vlog made for the customer
+
+
+
+<foreignObject width="100%" height="100%">
+
 <style>
   .emoji {
     font-size: calc(14px);
@@ -24,21 +37,14 @@
         content: var(--emoji);
     }
 }
-</img>
 </style>
+
+ >B).  **<u><a href="https://css3animationsshreyansh252001.000webhostapp.com/" class="emoji bomb"> CSS3 Animation Site
+</a></u>** 
+contains a site which depicts various pictures for animation
+
 </foreignObject>
 
-## **1). Web-Dev-I-4-Proj**
- 
-  It contains 4 projects which are designed for an internship using HTML CSS and JS.
-
-  These are as follows:-
-
->A). **<u><a href="https://blog-shreyansh252001.000webhostapp.com/">Blogging Site</a></u>**
-      contains a sample vlog made for the customer
-
->B).**<u>CSS3 Animation Site&nbsp;<a href="https://css3animationsshreyansh252001.000webhostapp.com/" class="emoji bomb"></a></u>**
-      contains a site which depicts various pictures for animation
 
 >C).**<u><a href="https://shreyansh252001movies.000webhostapp.com/"> Movies Site </a></u>**(:cinema:)
       contains list of movies to choose from (only front end)
