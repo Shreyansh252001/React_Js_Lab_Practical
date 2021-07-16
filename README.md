@@ -11,11 +11,10 @@
 >A). **<u><a href="https://blog-shreyansh252001.000webhostapp.com/">Blogging Site</a></u>**
       contains a sample vlog made for the customer
 
-
-
 <foreignObject width="100%" height="100%">
 
 <style>
+
   .emoji {
     font-size: calc(14px);
 }
@@ -37,9 +36,10 @@
         content: var(--emoji);
     }
 }
+
 </style>
 
- >B).  **<u><a href="https://css3animationsshreyansh252001.000webhostapp.com/" class="emoji bomb"> CSS3 Animation Site
+ > B).  **<u><a href="https://css3animationsshreyansh252001.000webhostapp.com/" class="emoji bomb"> CSS3 Animation Site
 </a></u>** 
 contains a site which depicts various pictures for animation
 
@@ -51,7 +51,6 @@ contains a site which depicts various pictures for animation
  
 >D).**<u><a href="https://voterregistrationshreyansh252001.000webhostapp.com/"> Voter Registration </a></u>**
       Voter Registration Page of Js , CSS and HTML.
-</list>
 
 ## **2). api-intro**
     In this project there is api, useEffect hooks, asyn/await , api, tutorial with the help of npm .All this is demonstrated with the help of countries data parser in the React Js  language.
